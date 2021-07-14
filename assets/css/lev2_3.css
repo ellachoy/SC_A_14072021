@@ -1,0 +1,30 @@
+body {
+  padding: 10% 20%;
+}
+nav {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  color: red;
+}
+form {
+  width: 100%;
+}
+.radius {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1%;
+  width: 10%;
+  text-align: center;
+}
+label {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 2%;
+}
+.gend,
+.act {
+  display: inline-block;
+  font-size: 17.5px;
+}
