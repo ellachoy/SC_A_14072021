@@ -1,0 +1,52 @@
+body {
+  padding: 10% 20%;
+}
+nav {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  color: red;
+  /* cursor: pointer;
+  transition: transform 300ms ease; */
+}
+form {
+  margin: 0 auto;
+  width: 500px;
+}
+label {
+  font-family: sans-serif;
+}
+label::after {
+  content: "✷ ";
+  color: red;
+  margin-left: 6px;
+  font-size: 13px;
+}
+.small {
+  width: 38%;
+}
+.big {
+  width: 80%;
+}
+.m {
+  width: 83%;
+}
+textarea {
+  width: 81%;
+}
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+div {
+  margin-bottom: 20px;
+}
+.Button {
+  width: 84%;
+  color: white;
+  background-color: rgb(50, 116, 94);
+}
+.Button:hover {
+  background-color: black;
+}

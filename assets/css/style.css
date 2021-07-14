@@ -1,3 +1,7 @@
+.Aufgaben {
+  margin-bottom: 10%;
+}
+
 .dropdown > form {
   width: 20%;
   position: absolute;
@@ -6,4 +10,63 @@
   font-size: 17px;
   font-family: sans-serif;
   color: rgb(32, 59, 209);
+}
+.ex {
+  font-family: sans-serif;
+  color: gray;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.ex > h1 {
+  color: green;
+}
+.small {
+  width: 50%;
+}
+.big {
+  width: 98%;
+  margin-top: 20px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.button {
+  background: cornflowerblue;
+  border-radius: 50px;
+  margin-top: 30px;
+  color: #fff;
+}
+.check:checked + p {
+  color: gold;
+}
+.check:not(:checked) + p {
+  color: tomato;
+}
+.ex ul {
+  font-size: 55px;
+  list-style: none;
+  position: relative;
+  /* left: -70%; */
+  transition: all ls;
+}
+.ex ul li {
+  display: inline;
+}
+.ex ul li:first-child {
+  color: red;
+}
+.ex ul li:nth-child(2) {
+  color: green;
+}
+.ex ul li:nth-child(3) {
+  color: blue;
+}
+.ex ul li:nth-child(4) {
+  color: orange;
+}
+.check:checked-ul {
+  /* left: 2%; */
 }
