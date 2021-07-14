@@ -1,0 +1,9 @@
+.dropdown > form {
+  width: 20%;
+  position: absolute;
+  left: 15em;
+  top: 3em;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: rgb(32, 59, 209);
+}
