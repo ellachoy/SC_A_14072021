@@ -1,0 +1,45 @@
+body {
+  padding: 10% 20%;
+}
+nav {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  color: red;
+}
+form {
+  background-color: rgb(245, 244, 245);
+  margin: 0 auto;
+  width: 500px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.small,
+.big,
+textarea {
+  width: 70%;
+}
+
+.Button > .B {
+  width: 100%;
+  background-color: rgb(141, 216, 166);
+  color: white;
+  font-size: 17px;
+}
+input,
+textarea {
+  padding: 2% 10% 10px 10px;
+  border: 1px solid #ccc;
+}
+div {
+  margin-bottom: 10px;
+}
+.S {
+  width: 84%;
+  color: white;
+  background-color: rgb(141, 216, 166);
+  margin-bottom: 10px;
+}
+.S:hover {
+  background-color: rgb(112, 150, 124);
+}
